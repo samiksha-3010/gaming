@@ -2,8 +2,24 @@
   box-sizing: border-box;
 
 }
-bode{
+body{
   margin: 0;
   background-color: #efefef;
   font-family:sans-serif ;
+}
+.gaming{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: white;
+  margin: 3rem auto;
+  box-shadow: 0px 0px 8px #888888;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  height: 70px;
 }

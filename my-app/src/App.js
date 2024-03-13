@@ -73,6 +73,7 @@ import ResetButton from './Componenet/ResetButton';
   
     return (
       <div className="App">
+        <h2 className='gaming'>Tic Tac Toe Game Kid</h2>
         <ScoreBoard scores={scores} xPlaying={xPlaying} />
         <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
         <ResetButton resetBoard={resetBoard} />
